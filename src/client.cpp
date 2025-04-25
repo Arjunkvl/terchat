@@ -50,7 +50,7 @@ int sendingThread(int clientSocket)
         std::cout<<">";
         memset(buffer, 0, 1024);
         std::cin.getline(buffer, sizeof(buffer));
-        std::cout<<"\r\033[K";
+        std::cout<<"\033[A\r\033[K";
         std::cout.flush();
         send(clientSocket, buffer, strlen(buffer), 0);
         {

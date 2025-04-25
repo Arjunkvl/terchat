@@ -51,7 +51,7 @@ void handleClients(int clientSocket)
 }
 int main()
 {
-     std::cout << "started processes" << std::endl;
+     std::cout <<"<<<<<<Server started>>>>>>"<< std::endl;
      int serverSocket = socket(AF_INET, SOCK_STREAM, 0);
      sockaddr_in serverAddress;
      serverAddress.sin_family = AF_INET;
