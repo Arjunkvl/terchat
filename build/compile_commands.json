@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/arjun/Projects/chat/build",
+  "command": "/sbin/c++   -g -std=gnu++17 -o CMakeFiles/server.dir/src/server.cpp.o -c /home/arjun/Projects/chat/src/server.cpp",
+  "file": "/home/arjun/Projects/chat/src/server.cpp",
+  "output": "CMakeFiles/server.dir/src/server.cpp.o"
+},
+{
+  "directory": "/home/arjun/Projects/chat/build",
+  "command": "/sbin/c++   -g -std=gnu++17 -o CMakeFiles/client.dir/src/client.cpp.o -c /home/arjun/Projects/chat/src/client.cpp",
+  "file": "/home/arjun/Projects/chat/src/client.cpp",
+  "output": "CMakeFiles/client.dir/src/client.cpp.o"
+}
+]
